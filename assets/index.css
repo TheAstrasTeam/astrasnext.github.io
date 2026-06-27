@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+.left {
+    width: 50%;
+    min-height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.icon {
+    height: 56px;
+    width: auto;
+}
+.iconAT{
+    height: 36px;
+    width: auto;
+}
+
+.right {
+    width: 50%;
+    min-height: 100vh;
+    background-color: #09f;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+code{
+    font-family: Consolas, monospace;
+}
