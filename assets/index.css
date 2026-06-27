@@ -3,6 +3,32 @@ body {
     display: flex;
     min-height: 100vh;
 }
+@media screen and (max-width: 512px) {
+    body {
+        width: 100%;
+        flex-direction: column
+    }
+    .left {
+        width: 100%;
+        min-height: 50vh !important;
+        min-width: 100vw;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .right {
+        height: 50vh;
+        min-height: 0 !important;
+        min-width: 100vw;
+        background-color: #09f;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .iconAT{
+        bottom: 50% !important;
+        margin-bottom: 36px;
+    }
+
+}
 
 .left {
     width: 50%;
