@@ -23,7 +23,14 @@
                 bottom: 35px;
                 position: absolute;
                 margin-left: 35px;
-            "/> 
+            "/>
+            <button id="goToEditor" style="margin-left: 35px;">在线体验</button>
+            <script>
+
+                document.querySelector('#goToEditor').onclick = () => {
+                    window.location.href = '/editor'
+                }
+            </script>
         </div>
         <div class="right">
             <code style="

@@ -54,6 +54,21 @@ body {
     box-sizing: border-box;
 }
 
+button {
+    background-color: #09f;
+    color: white;
+    border: #09f 1px solid;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: small;
+}
+button:hover {
+    border: #b0deff 1px solid
+}
+button:active {
+    filter: brightness(0.8);
+}
+
 code{
     font-family: Consolas, monospace;
 }
